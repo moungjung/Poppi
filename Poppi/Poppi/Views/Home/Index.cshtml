@@ -55,3 +55,28 @@
             </button>
         </div>
     </div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h2>Our Products <small>Trending Products</small></h2>
+        </div>
+    </div>
+</div>
+
+<div class="row product-container">
+    @*Will map out the products from the database once the database and data has been created*@
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:300px">
+            <img class="img-responsive" title="Click to View Product Details"
+                 style="cursor:pointer;height:160px;width:100%;" 
+                 src="~/Images/challenger_1.png"/>
+            <div class="caption">
+                <h5>Product Name</h5>
+                <p>50.00</p>
+                @*This will be changed with a query that just fetches products with an available field of true*@
+                <p>Available</p>
+            </div>
+        </div>
+    </div>
+</div>
