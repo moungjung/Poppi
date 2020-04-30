@@ -236,14 +236,14 @@ h6 {
         margin-bottom: 0;
     }
 
-.inputComn {
-    color: black;
-    font-size: 14px;
-    height: 44px;
-    width: 100%;
-    cursor: pointer;
-    padding: 0 15px;
-}
+    .inputComn {
+        color: black;
+        font-size: 14px;
+        height: 44px;
+        width: 100%;
+        cursor: pointer;
+        padding: 0 15px;
+    }
 
 .searchIcon {
     position: absolute;
