@@ -340,8 +340,6 @@ h6 {
             width: 30px;
             height: 30px;
             position: relative;
-            background: #ffffff;
-            border: 1px solid #ccc;
             -webkit-border-radius: 100%;
             -moz-border-radius: 100%;
             -o-border-radius: 100%;
@@ -349,14 +347,6 @@ h6 {
             font-size: 20px;
             color: #333333;
         }
-
-            .copyright .list-social > li > a:hover {
-                background: #333333;
-                border: 1px solid #333333;
-                font-size: 20px;
-                color: #ffffff;
-            }
-
             .copyright .list-social > li > a .fa {
                 position: absolute;
                 left: 50%;
