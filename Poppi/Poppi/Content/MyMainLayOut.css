@@ -2,14 +2,14 @@
 @import url(font-awesome.css);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
 
-body {
+.body {
     margin: 0;
     padding-bottom: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     line-height: 16px;
     color: #333;
-    background: #fff;
+    background: #D3D3D3;
     overflow-x: hidden;
     scrollbar-face-color: #121212;
 }
@@ -236,14 +236,14 @@ h6 {
         margin-bottom: 0;
     }
 
-    .inputComn {
-        color: black;
-        font-size: 14px;
-        height: 44px;
-        width: 100%;
-        cursor: pointer;
-        padding: 0 15px;
-    }
+.inputComn {
+    color: black;
+    font-size: 14px;
+    height: 44px;
+    width: 100%;
+    cursor: pointer;
+    padding: 0 15px;
+}
 
 .searchIcon {
     position: absolute;
@@ -329,13 +329,13 @@ h6 {
     margin-top: -10px;
 }
 
-    .copyright .list-social > li {
+.copyright .list-social > li {
         display: inline;
         float: left;
         margin: 2px 5px;
-    }
+}
 
-        .copyright .list-social > li > a {
+.copyright .list-social > li > a {
             display: block;
             width: 30px;
             height: 30px;
@@ -346,11 +346,13 @@ h6 {
             border-radius: 100%;
             font-size: 20px;
             color: #333333;
-        }
-            .copyright .list-social > li > a .fa {
+
+}
+
+.copyright .list-social > li > a .fa {
                 position: absolute;
                 left: 50%;
                 top: 50%;
                 margin-left: -8px;
                 margin-top: -9px;
-            }
+}
